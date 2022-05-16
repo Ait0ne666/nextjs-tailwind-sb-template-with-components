@@ -1,9 +1,9 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
-import ThemeProvider from '../components/ThemeProvider/themeProvider'
+import ThemeProvider from '../src/components/Providers/ThemeProvider/themeProvider'
 import { ChakraProvider } from '@chakra-ui/provider'
 import { extendTheme } from '@chakra-ui/react'
-import LanguageProvider from '../components/LanguageProvider/language-provider'
+import LanguageProvider from '../src/components/Providers/LanguageProvider/language-provider'
 
 const theme = extendTheme({
 
